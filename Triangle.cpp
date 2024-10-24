@@ -23,7 +23,50 @@ using namespace std;
 //       getVertexTwoColor, setVertexThreeColor, getVertexThreeColor,
 //       read, write.
 
+Triangle::Triangle(){
+}
 
+Triangle::Triangle(Point pt1, Color color1,
+                   Point pt2, Color color2,
+                   Point pt3, Color color3){
+    
+}
+
+void Triangle::setColor(Color color){
+    
+}
+
+void Triangle::setVertexOne(Point pt){
+    
+}
+
+Point Triangle::getVertexOne(){
+    
+}
+
+void Triangle::setVertexOneColor(Color color){
+    
+}
+
+Color Triangle::getVertexOneColor(){
+    
+}
+
+void Triangle::setVertexTwo(Point pt){
+    
+}
+
+Point Triangle::getVertexTwo(){
+    
+}
+
+void Triangle::setVertexTwoColor(Color color){
+    
+}
+
+Color Triangle::getVertexTwoColor(){
+    
+}
 
 // Your code goes above this line.
 // Don't change the implementations below!
