@@ -16,6 +16,50 @@
 // TODO: implement first checkRange, then two constructors, setRed, getRed,
 //       setGreen, getGreen, setBlue, getBlue, read, write.
 
+Color::Color(){
+}
+
+Color::Color(int redVal, int greenVal, int blueVal){
+    red = checkRange(redVal);
+    green = checkRange(greenVal);
+    blue = checkRange(blueVal);
+}
+
+void Color::setRed(int redVal){
+    red = checkRange(redVal);
+}
+
+int Color::getRed(){
+    return red;
+}
+
+void Color::setGreen(int greenVal){
+    green = checkRange(greenVal);
+}
+
+int Color::getGreen(){
+    return green;
+}
+
+void Color::setBlue(int blueVal){
+    blue = checkRange(blueVal);
+}
+
+int Color::getBlue(){
+    return blue;
+}
+
+void Color::read(istream& ins){
+    
+}
+
+void Color::write(ostream& outs){
+    
+}
+
+int Color::checkRange(int val){
+    return 0;
+}
 
 
 // Your code goes above this line.
